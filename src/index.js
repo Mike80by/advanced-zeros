@@ -9,7 +9,7 @@ module.exports = function getZerosCount(number, base) {
   			do {
   				numBase /= i;
   				count++;	
-  			} while (numBase % i === 0 && numBase >= i)
+  			} while (numBase % i === 0)
   			arrDiv.push(i);
   			arrPow.push(count);
   		}
